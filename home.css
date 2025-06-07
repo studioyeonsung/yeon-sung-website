@@ -58,7 +58,7 @@ html, body {
 .container {
   display: flex;
   flex-direction: column;
-  height: calc(100% - 40px);
+  min-height: calc(100dvh - 40px);
   background-color: black;
   padding: 0px;
 }
@@ -281,14 +281,14 @@ a.section.newsletter {
     font-size: 5vw;
   }
   .matter-title {
-    font-size: 6vw;
+    font-size: 5.5vw;
   }
   .sub {
     font-size: 3vw;
   }
   .announcement-text,
   .newsletter-text {
-    font-size: 4vw;
+    font-size: 3vw;
   }
   .footer {
     font-size: 1.3vw;
@@ -318,10 +318,10 @@ a.section.newsletter {
     flex: 1.0;
   }
   .section.announcement {
-    flex: 0.7;
+    flex: 0.5;
   }
   .section.newsletter {
-    flex: 0.7;
+    flex: 0.5;
   }
   .section.heading h1 {
     font-size: 8vw;
@@ -330,14 +330,14 @@ a.section.newsletter {
     font-size: 5vw;
   }
   .matter-title {
-    font-size: 5.5vw;
+    font-size: 5vw;
   }
   .sub {
     font-size: 3vw;
   }
   .announcement-text,
   .newsletter-text {
-    font-size: 4vw;
+    font-size: 2.7vw;
   }
   .footer-left, 
   .footer-right {
@@ -558,11 +558,11 @@ a.section.newsletter {
 }
 
   .section.heading {
-    flex: 1.5;
+    flex: 1.2;
   }
 
   .section.heading h1 {
-    font-size: 17vw;
+    font-size: 14vw;
     line-height: 16vw;
   }
 
@@ -651,8 +651,8 @@ a.section.newsletter {
 @media (max-width: 390px) {
 
   .section.heading h1 {
-    font-size: 17vw;
-    line-height: 17vw;
+    font-size: 13vw;
+    line-height: 14vw;
   }
 
   .sub {
@@ -838,7 +838,6 @@ a.section.newsletter {
   opacity: 1;
   pointer-events: auto;
 }
-
 
 
 
